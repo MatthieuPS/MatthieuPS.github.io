@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h3{
+  color: white;
+}
+
+
+
+.jumbotron{
+text-align: center;
+color: white;
+
+  /* Choisis la hauteur ici */
+  height: 700px;
+  background-image: url("img/surf01.jpeg");
+
+  /* Centre l'image et la met bien sur tous les écrans */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.btn01{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.btn02{
+  margin-left: 15px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center{
+  margin-top: 30px;
+}

@@ -1,0 +1,107 @@
+body{
+    margin: 50px auto;
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #444;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first{
+    line-height: 1em;
+}
+
+.W{
+    color: #B22222;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+
+.W1{
+    color: #B22222;
+}
+
+.little{
+    font-size: 7px;
+}
+
+.colored{
+    animation: change-color 3s linear infinite;
+    font-weight: 800;
+  }
+  
+  @keyframes change-color {
+    0% {
+      color: rgb(235, 71, 71);
+    }
+    33% {
+      color: rgb(71, 235, 71);
+    }
+    66% {
+      color: rgb(71, 71, 235);
+    }
+    100% {
+      color: rgb(235, 71, 71);
+    }
+  }
+
+  .colblue{
+      color: blue;
+  }
+
+  .colpurple{
+      color: purple;
+  }
+
+  .stop{
+      cursor: not-allowed;
+  }
+
+  a{
+      color:mediumslateblue;
+  }
+
+  img{
+      width: 16px;
+      height: 16px;
+  }
+
+  .block1{
+      display: inline-block;
+      background-color: #444;
+      width: 14px;
+      height: 14px;
+      margin-right: 2px;
+  }
+
+  .block2{
+    display: inline-block;
+    background-color: #454545;
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+}
+
+.cat{
+    width: 300px;
+height: 206px;
+}
+
+.float{
+    float: left;
+    margin: -4px -20px 34px -28px;
+}
+
+figcaption{
+    font-size: 11px;
+}
+
+.kop{
+    text-align: center;
+}
+
+.kopimg{
+    width: 30px;
+    height: 30px;
+}
